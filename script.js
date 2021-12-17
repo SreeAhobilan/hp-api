@@ -5,7 +5,7 @@ const displayResults = document.querySelector(".displayResults");
 const button= document.querySelector("#btn");
 button.addEventListener("click",function() {
 //Fetching the details from the given API URL
-const ApiURL = "http://hp-api.herokuapp.com/api/characters";
+const ApiURL = "https://hp-api.herokuapp.com/api/characters";
     function renderResult(result) {
     const resultDiv = document.createElement("div");
     resultDiv.className = "card";
