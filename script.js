@@ -33,7 +33,6 @@ const ApiURL = "https://hp-api.herokuapp.com/api/characters";
         try{
         const response = await fetch(ApiURL);
         let results = await response.json();
-        console.log(results)
         renderAll(results);
         }
         catch(error){
